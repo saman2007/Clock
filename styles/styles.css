@@ -1,0 +1,46 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clock-container {
+    margin: auto;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  13px 13px 24px #bebebe,
+             -13px -13px 24px #ffffff;
+             flex-flow: column;
+}
+
+.clock-container .weak-info {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    align-items: flex-end;
+    word-break: break-word;
+    color: rgb(43, 226, 19);
+}
+
+.clock-container .clock-info {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    font-size: xxx-large;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-container .clock-info p {
+    margin-right: 10px;
+}
