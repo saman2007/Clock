@@ -1,3 +1,4 @@
+setClock();
 //call set clock every 1 second
 setInterval(setClock, 1000);
 //a function to set hours, minutes and seconds
